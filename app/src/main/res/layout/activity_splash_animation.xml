@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titol"
+
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablelayout"
+        android:background="@color/black"
+        >
+
+        <TableRow
+            android:id="@+id/tablerow1"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageview1"
+                android:src="@drawable/cow"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                />
+            <ImageView
+                android:id="@+id/imageview2"
+                android:src="@drawable/fantasma"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tablerow2"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageview3"
+                android:src="@drawable/dice"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                />
+            <ImageView
+                android:id="@+id/imageview4"
+                android:src="@drawable/hand"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                />
+        </TableRow>
+
+
+    </TableLayout>
+    <TextView
+        android:id="@+id/titol2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titol2"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

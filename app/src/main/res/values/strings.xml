@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SplashAnimation</string>
+    <string name="titol">Splash screen !</string>
+    <string name="titol2">Entrar al app !</string>
+    <string name="info">Version 1.0.0</string>
+</resources>
