@@ -71,7 +71,6 @@
                 />
         </TableRow>
 
-
     </TableLayout>
     <TextView
         android:id="@+id/titol2"
@@ -87,6 +86,7 @@
         android:layout_height="wrap_content"
         android:text="@string/info"
         android:layout_gravity="center"
+        android:gravity="center"
         android:textSize="20sp"
         android:layout_marginTop="20dp"/>
 </LinearLayout>
